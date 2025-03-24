@@ -1,0 +1,21 @@
+.cupcake-details {
+    text-align: center;
+    padding: 20px;
+  }
+ 
+  .cupcake-details img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+ 
+  button {
+    background-color: pink;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+ 

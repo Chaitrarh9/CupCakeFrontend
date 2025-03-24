@@ -1,0 +1,46 @@
+.cart-modal {
+  background-color: #ffe6eb; /* Light pink background */
+  border: 3px solid #ff4081; /* Dark pink border */
+  border-radius: 10px;
+  padding: 20px;
+  color: #4a1c2d; /* Darker text for readability */
+  text-align: center;
+  width: 350px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart-modal h2 {
+  color: #d81b60; /* Bold pink heading */
+  font-size: 22px;
+}
+
+.cart-modal p {
+  font-size: 16px;
+  color: #6d1b3f; /* A deeper pink shade for text */
+}
+
+.cart-modal .close-btn {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.cart-modal .checkout-btn {
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cart-modal .checkout-btn:hover,
+.cart-modal .close-btn:hover {
+  opacity: 0.8;
+}

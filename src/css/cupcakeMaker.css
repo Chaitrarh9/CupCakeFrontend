@@ -1,0 +1,37 @@
+.cupcake-maker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff5f7; /* Light pinkish background */
+  padding: 20px;
+}
+
+.cupcake-content {
+  max-width: 800px;
+  padding: 20px;
+  border: 3px solid #f8c8dc; /* Light pinkish border */
+  border-radius: 12px;
+  background-color: #ffe6ea; /* Soft pink background */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+
+.cupcake-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d63384; /* Dark pink for title */
+}
+
+.cupcake-highlight {
+  color: #d63384;
+  font-style: italic;
+}
+
+.cupcake-content p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
